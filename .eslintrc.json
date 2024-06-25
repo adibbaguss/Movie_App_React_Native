@@ -1,0 +1,12 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./tsconfig.json", // Ditambahkan
+    "extends": [
+      "plugin:react/recommended",
+      "standard-with-typescript",
+      "prettier" // Ditambahkan
+    ]
+  }
+}
